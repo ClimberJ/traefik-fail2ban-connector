@@ -1,0 +1,14 @@
+# The name of your plugin as displayed in the Plugins Catalog web UI.
+displayName: Fail2Ban Connector
+
+# For now, `middleware` is the only type available.
+type: middleware
+
+# The import path of your plugin.
+import: github.com/ClimberJ/traefik-fail2ban-connector
+
+# A brief description of what your plugin is doing.
+summary: A Traefik plugin that uses an existing fail2ban setup to block IPs.
+
+testData:
+  {}
