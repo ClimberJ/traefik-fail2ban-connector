@@ -50,6 +50,5 @@ The `bans.txt` file from the action will need to be mounted into Traefik at `/et
 ## Limitations
 
 - This plugin can currently only be used with one jail.
-- If one blocked IP (e.g. 192.168.178.100) contains another blocked IP (e.g. 192.168.178.10) unbanning the inner IP will also remove the outer IP from the file.
 
 Feel free to submit PRs for any of these.
